@@ -1,0 +1,70 @@
+/*userProfile css*/
+
+
+/* profile.css */
+.profile-tittle
+{
+    display: flex;
+    justify-content: center;
+}
+.profile-container
+{
+    display: flex;
+    text-align: left;
+    /* justify-content: space-around */
+    /* align-content:end; */
+
+    ;
+}
+.badass {
+    /* max-width: 600px; */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+   h1 {
+    text-align:left;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+    .edit-button {
+    text-align:center;
+  }
+  
+  .edit-button a {
+    color: #007bff;
+    text-decoration: none;
+
+  }
+  
+  .edit-button a:hover {
+    text-decoration:none;
+    color: black;
+  }
+  /* Add this to your CSS file */
+
+.profile-background {
+    position: relative;
+    width: 50%;
+    height: 400px; /* Adjust the height as needed */
+
+    background-size: cover;
+    background-position:top right;
+    overflow: hidden;
+  }
+  
+  .profile-background img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
